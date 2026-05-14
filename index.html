@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- CSS EXTERNO -->
-    <link rel="stylesheet" href="./src/css/style.css">
-
-    <!-- API EXTERNA -->
+     <link rel="stylesheet" href="./src/css/style.css">
+     <!--API EXTERNA -->
       <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
-
     <title>Projeto API</title>
 </head>
 <body>
     <header>
         <h1>Projeto de Texto</h1>
     </header>
+    <main>
+        <div class="container">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="canvas"></canvas>
+            <button id="btn-texto">Ler Texto</button>
+            <div id="saida">Lendo Texto...</div>
+        </div>
 
-    <main class="container">
-        <video id="video" autoplay playsinline src=""></video>
-        <canvas id="canvas"></canvas>
-        <button id="btn-texto">Ler Texto</button>
-        <div id="saida">Lendo Texto...</div>
     </main>
-
     <footer>
         <p>&copy; 2026- Todos os direitos reservados.</p>
     </footer>
     
     <!-- JS EXTERNO -->
-    <script src="./src/js/script.js"></script>
+     <script src="./src/js/script.js"></script>
 </body>
 </html>
